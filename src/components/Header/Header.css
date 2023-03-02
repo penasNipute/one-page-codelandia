@@ -1,0 +1,47 @@
+
+img
+{
+  width:100%
+}
+
+.w-400
+{
+  width:100%;
+  max-width:400px;
+}
+
+.header
+{
+  
+  background: #D7D5FF;
+  
+}
+ 
+.header .container
+{
+  padding:140px 2% 120px;
+}
+
+.w-400 h1
+{
+  width:300px;
+  padding-bottom:20px;
+}
+
+.w-400 p
+{
+  width:300px;
+  padding-bottom:45px;
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .header .container
+  {
+    flex-direction:column;
+    padding:50px 4% 80px;
+    gap:50px;
+
+  }
+}

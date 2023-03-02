@@ -1,0 +1,64 @@
+.form
+{
+  background: #D7D4FF;
+
+}
+
+.form .container
+{
+  display:flex;
+  flex-direction:column;
+}
+
+.form .container h3
+{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+
+  color: #2B2B2B;
+  margin: 75px 0 45px;
+}
+
+.form input, .form textarea, .form button
+{
+  width:100%;
+  max-width:500px;
+  margin-bottom:15px;
+  padding:21px 15px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  resize:none;  
+ 
+  color: rgba(110, 114, 117, 0.74);
+  border-radius:8px;
+}
+
+.form button
+{
+  margin-top:15px;
+  color:white;
+  justify-content:center;
+  margin-bottom:60px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .form .container
+  {
+    padding-left:4%;
+    padding-right:4%;
+  }
+}
