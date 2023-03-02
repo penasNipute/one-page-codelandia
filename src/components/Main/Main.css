@@ -5,7 +5,8 @@
 {
   display:flex;
   flex-wrap:wrap;
-  padding:150px 0 80px;
+  padding:150px 2% 80px;
+  gap:10px;
 }
 
 
